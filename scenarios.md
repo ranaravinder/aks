@@ -1,6 +1,3 @@
-Certainly! Here's the comprehensive solution including the problem statement:
-
----
 
 ## Problem Statement
 
