@@ -1248,3 +1248,8 @@ Ingress exposes HTTP and HTTPS routes from outside the cluster to services withi
      Verify that the DNS entry points to the correct external IP.
 
 These examples provide a comprehensive overview of using NetworkPolicies, Services, and Ingress in Kubernetes. 
+
+
+
+Access the service at [http://aks.hillretreat.in/k8](http://aks.hillretreat.in/k8).
+
