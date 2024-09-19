@@ -1,6 +1,3 @@
-
----
-
 # Sending Email using Managed Identity and Microsoft Graph API in .NET
 
 *Author: Ravinder Rana*
