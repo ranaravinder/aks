@@ -2,7 +2,7 @@
 ---
 
 # Sending Email using Managed Identity and Microsoft Graph API in .NET
-
+*Author: Ravinder Rana*
 This guide explains how to use Azure **Managed Identity** with Microsoft Graph API to send emails in a .NET application, without the need to manage client secrets.
 
 ## Prerequisites
