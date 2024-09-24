@@ -97,8 +97,9 @@ To test this locally, you can use Azure CLI to simulate Managed Identity:
 az login
 ```
 
-Once logged in, the **ManagedIdentityCredential** will authenticate using your Azure CLI session when running locally.
-
+Once logged in, 
+- Replace `ManagedIdentityCredential` with `DefaultAzureCredential` in the code for local development.
+- When deployed to Azure, **ManagedIdentityCredential** will still be used automatically as part of the `DefaultAzureCredential` process.
 ---
 
 ## Conclusion
