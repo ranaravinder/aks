@@ -15,29 +15,17 @@ This guide explains how to use Azure **Managed Identity** with Microsoft Graph A
 1. Go to your **Azure resource** (e.g., App Service, Function App).
 2. Under the **Identity** section, enable **System-assigned Managed Identity**.
 
-![Enable Managed Identity](https://docs.microsoft.com/en-us/azure/app-service/media/app-service-managed-service-identity/app-service-managed-service-identity-enable.png)
-
-## Step 2: Assign API Permissions to Managed Identity
-
-1. Go to **Azure Active Directory** → **Enterprise Applications** → find the Managed Identity for your resource.
-2. In the **API Permissions** section, assign the **Mail.Send** permission for **Microsoft Graph**.
-   - Ensure the permission is granted by an admin.
-
-Here's the updated Step 2 with the image you've provided:
-
----
-
-## Step 2: Assign API Permissions to Managed Identity
-
-1. Go to **Azure Active Directory** → **Enterprise Applications** → find the Managed Identity for your resource.
-2. In the **API Permissions** section, assign the **Mail.Send** permission for **Microsoft Graph**.
-   - Ensure the permission is granted by an admin.
-
 Below is an example of enabling **System-assigned Managed Identity** for an Azure Web App:
 
-![Enable Managed Identity](sandbox:/mnt/data/image.png)
-
 ![image](https://github.com/user-attachments/assets/1b6e7dbe-b8bc-4205-b7a3-660f8b015707)
+
+
+
+## Step 2: Assign API Permissions to Managed Identity
+
+1. Go to **Azure Active Directory** → **Enterprise Applications** → find the Managed Identity for your resource.
+2. In the **API Permissions** section, assign the **Mail.Send** permission for **Microsoft Graph**.
+   - Ensure the permission is granted by an admin.
 
 ## Step 3: Install Required NuGet Packages
 
