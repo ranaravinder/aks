@@ -24,11 +24,15 @@ Below is an example of enabling **System-assigned Managed Identity** for an Azur
 ![image](https://github.com/user-attachments/assets/7d8958d9-1d36-4827-a70d-f0dd017d6c95)
 
 
+
+
 ## Step 2: Assign API Permissions to Managed Identity
 
 1. Go to **Azure Active Directory** → **Enterprise Applications** → find the Managed Identity for your resource.
 2. In the **API Permissions** section, assign the **Mail.Send** permission for **Microsoft Graph**.
    - Ensure the permission is granted by an admin.
+
+![image](https://github.com/user-attachments/assets/09791f0c-c715-4272-bd6b-55eeeac8e12c)
 
 ## Step 3: Install Required NuGet Packages
 
